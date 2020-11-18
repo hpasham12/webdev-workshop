@@ -8,21 +8,26 @@
     <link href="index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div class="navbar">
+    <div>
       <a href="#" class="disabled">Home</a>
       <a href="about.html">About Me</a>
       <a href="experience.html">Experience</a>
       <a href="contact.html">Contact</a>
     </div>
 
-    <div class="header">
-      <h1>Harshita Pasham</h1>
-      <img class="pfp" src="me.jpg" />
-      <p class="description">
-        Hey, I'm Harshita and I'm a second year student studying Math and
-        Computer Science with a minor in Psychology at UIUC
-      </p>
-    </div>
+    <form>
+      <label>Name: </label><input class="input" type="text" id="name" /><br />
+      <label>Email: </label><input class="input" type="text" id="email" /><br />
+      <label>Message: </label><textarea id="message" name="message"></textarea
+      ><br />
+      <input type="submit" />
+    </form>
+
+    <img src="linkedin.jpg" />
+    <img src="fb.jpg" />
+    <img src="insta.jpg" />
+    <img src="snap.jpg" />
+
     <script src="index.js"></script>
   </body>
 </html>
